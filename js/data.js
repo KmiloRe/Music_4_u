@@ -8,9 +8,9 @@ let songs = [
     },
     {
         name: 'Azul',
-        path: 'musics/Song 1.mp3',
+        path: 'musics/Song 6.mp3',
         artist: 'Zoe',
-        cover: 'img/Zoe.png',
+        cover: 'img/car.png',
         duracion: '3:51'
     },
     {
