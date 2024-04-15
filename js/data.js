@@ -4,7 +4,7 @@ let songs = [
         path: 'musics/Song 5.mp3',
         artist: 'Prince Royce',
         cover: 'img/marimari.png',
-        duracion: '3:00'
+        duracion: '3:30'
     },
     {
         name: 'Azul',
@@ -14,51 +14,51 @@ let songs = [
         duracion: '3:51'
     },
     {
-        name: 'Luna',
-        path: 'musics/Song 2.mp3',
-        artist: 'Feid',
+        name: 'Flaca',
+        path: 'musics/Flaca.mp3',
+        artist: 'Andres Calamaro',
         cover: 'img/encampo.png',
-        duracion: '3:00'
+        duracion: '4:36'
     },
     {
         name: 'Zombie',
-        path: 'musics/Song 3.mp3',
+        path: 'musics/Zombie.mp3',
         artist: 'The Cranberries',
         cover: 'img/feriaaerea.png',
-        duracion: '5:08'
+        duracion: '5:07'
     },
     {
         name: 'Propuesta Indecente',
         path: 'musics/Song 4.mp3',
         artist: 'Romeo Santos',
         cover: 'img/ciego.png',
-        duracion: '3:00'
+        duracion: '4:28'
     },
     {
-        name: 'Ojos',
-        path: 'musics/Song 5.mp3',
-        artist: 'Prince Royce',
+        name: 'ADMV',
+        path: 'musics/ADMV.mp3',
+        artist: 'Maluma',
         cover: 'img/ojos.png',
-        duracion: '3:00'
+        duracion: '3:13'
     },
     {
-        name: 'Boca',
-        path: 'musics/Song 5.mp3',
-        artist: 'Prince Royce',
+        name: 'Veridis Quo',
+        path: 'musics/Veridis_Quo.mp3',
+        artist: 'Daft Punk',
         cover: 'img/boca.png',
-        duracion: '3:00'
+        duracion: '5:45'
     },
     {
-        name: 'oso',
-        path: 'musics/Song 5.mp3',
-        artist: 'Prince Royce',
+        name: 'Imitadora',
+        path: 'musics/Imitadora.mp3',
+        artist: 'Romeo Santos',
         cover: 'img/oso.png',
         duracion: '3:00'
     },
     {
-        name: 'Cocina',
-        path: 'musics/Song 5.mp3',
-        artist: 'Prince Royce',
+        name: 'Bugambilia',
+        path: 'musics/Bugambilia.mp3',
+        artist: 'Nasa Histoires',
         cover: 'img/cocina.png',
         duracion: '3:00'
     },
