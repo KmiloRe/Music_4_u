@@ -35,10 +35,9 @@ const setMusic = (i) => {
     disk.style.backgroundImage = `url('${song.cover}')`;
 
     currentTime.innerHTML = '00:00';
-    duracionCancion.innerHTML = '00:00';
     setTimeout(() => {
         seekBar.max = music.duration;
-        duracionCancion.innerHTML = formatTime(music.duration);
+        duracionCancion.innerHTML = `${song.duracion}`;
     }, 300); 
 }
 
