@@ -53,7 +53,7 @@ let songs = [
         path: 'musics/Imitadora.mp3',
         artist: 'Romeo Santos',
         cover: 'img/oso.png',
-        duracion: '3:00'
+        duracion: '3:55'
     },
     {
         name: 'Bugambilia',
