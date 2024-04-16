@@ -60,6 +60,13 @@ let songs = [
         path: 'musics/Bugambilia.mp3',
         artist: 'Nasa Histoires',
         cover: 'img/cocina.png',
-        duracion: '3:00'
+        duracion: '3:13'
+    },
+    {
+        name: 'Take Me To Church',
+        path: 'musics/Take Me To Church.mp3',
+        artist: 'Hozier',
+        cover: 'img/meu.png',
+        duracion: '3:49'
     },
 ]
