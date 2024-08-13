@@ -3,36 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Player</title>
+    <!-- todo k: change this title based on local language -->
+     <!-- todo k: change everything based on language -->
+     <!-- spanish: Listo para tu nueva pagina web? -->
+    <title>Ready 4 your next web page?</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    
-    <audio src="" id="audio"></audio>
+    <!-- Title and some items with text -->
+    <div class="container">
+        <div style="padding-top: 1000px;"></div>
+        <header>
+            <h1>What do you want in your new web page?</h1>
+            <p>we have it all</p>
+        </header>
+        <!-- todo k: gif -->
+         <!-- todo k: price -->
+          <!-- todo k: contact me -->
+        <div class="container">
+            <img src="img/spanishAdd.gif" alt="Computer man" style="width:600px;height:1000px;">
 
-    <div class="reproductor">
-        <h1 class="nombre-musica">song one</h1>
-        <p class="nombre-artista">artist</p>
-
-        <div class="disk"></div>
-        <div class="song-slider">
-            <input type="range" value="0" class="seek-bar">
-            <span class="tiempo-actual">00:00</span>
-            <span class="duracion-cancion">00:00</span>
+            <div class="item">
+                <img src="img/css.png" alt="">
+                <h2>CSS</h2>
+                <p>Cascading Style Sheets</p>
+            </div>
+            <div class="item">
+                <img src="img/js.png" alt="">
+                <h2>JS</h2>
+                <p>JavaScript</p>
+            </div>
+            <div class="item">
+                <img src="img/php.png" alt="">
+                <h2>PHP</h2>
+                <p>PHP: Hypertext Preprocessor</p>
+            </div>
+            <div class="item">
+                <img src="img/sql.png" alt="">
+                <h2>SQL</h2>
+                <p>Structured Query Language</p>
+            </div>
+            <div class="item">
+                <img src="img/node.png" alt="">
+                <h2>Node.js</h2>
+                <p>Node.js</p>
+            </div>
+            <div class="item">
+                <img src="img/react.png" alt="">
+                <h2>React</h2>
+                <p>React.js</p>
+            </div>
+            <div class="item">
+                <img src="img/angular.png" alt="">
+                <h2>Angular</h2>
+                <p>Angular.js</p>
+            </div>
+            <div class="item">
+                <img src="img/vue.png" alt="">
+                <h2>Vue</h2>
+                <p>Vue.js</p>
+            </div>
+            <div class="item">
+                <img src="img/sass.png" alt="">
+                <h2>Sass</h2>
+                <p>Sass</p>
+            </div>
         </div>
 
-        <div class="controles">
-            <button class="btn backward-btn"><img src="img/pre.png" alt=""></button>
-            <button class="play-btn pause">
-                <span></span>
-                <span></span>
-            </button>
-            <button class="btn forward-btn"><img src="img/nxt.png" alt=""></button>
-
-            
+        <div class="reproductor">
+            <h1 class="nombre-musica">song one</h1>
+            <p class="nombre-artista">artist</p>
+    
+            <div class="disk"></div>
+            <div class="song-slider">
+                <input type="range" value="0" class="seek-bar">
+                <span class="tiempo-actual">00:00</span>
+                <span class="duracion-cancion">00:00</span>
+            </div>
+    
+            <div class="controles">
+                <button class="btn backward-btn"><img src="img/pre.png" alt=""></button>
+                <button class="play-btn pause">
+                    <span></span>
+                    <span></span>
+                </button>
+                <button class="btn forward-btn"><img src="img/nxt.png" alt=""></button>
+    
+                
+            </div>
+    
         </div>
 
     </div>
+
+
+
+    <audio src="" id="audio"></audio>
+
+    
     <script src="js/data.js"></script>
     <script src="js/java.js"></script>
 </body>
