@@ -9,18 +9,40 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(64, 1, 94);
+    background: rgb(255, 255, 255);
 }
+/* body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(64, 1, 94);
+} */
 .reproductor{
     width: 350px;
     height: 550px;
     border-radius: 20px;
     background: transparent;
-    box-shadow: 0 40px 100px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.1);
     padding: 30px;
     overflow: hidden;
     color: rgb(171, 91, 182);
 }
+/* .titulo-simple,
+.titulo-artista{
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.titulo-musica{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.titulo-artista{
+    font-size: 20px;
+} */
 .nombre-musica,
 .nombre-artista{
     text-align: center;
