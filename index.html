@@ -9,29 +9,42 @@
 <body>
     
     <audio src="" id="audio"></audio>
+    
+    <div class="column">
+        <svg class="curved-text" viewBox="0 0 500 250">
+            <defs>
+                <path id="curve" d="M 30, 200 Q 250, 50 470, 200" fill="none"/>
+            </defs>
+            <text>
+                <textPath href="#curve" startOffset="50%" text-anchor="middle" class="text-path años-bonito" style="font-size: 2rem; font-weight: bold;">
+                    Edición especial 2026
+                </textPath>
+            </text>
+        </svg>
+        
+        <div class="reproductor">
+            <h1 class="nombre-musica">song one</h1>
+            <p class="nombre-artista">artist</p>
 
-    <div class="reproductor">
-        <h1 class="nombre-musica">song one</h1>
-        <p class="nombre-artista">artist</p>
+            <div class="disk"></div>
+            <div class="song-slider">
+                <input type="range" value="0" class="seek-bar">
+                <span class="tiempo-actual">00:00</span>
+                <span class="duracion-cancion">00:00</span>
+            </div>
 
-        <div class="disk"></div>
-        <div class="song-slider">
-            <input type="range" value="0" class="seek-bar">
-            <span class="tiempo-actual">00:00</span>
-            <span class="duracion-cancion">00:00</span>
+            <div class="controles">
+                <button class="btn backward-btn"><img src="img/pre.png" alt=""></button>
+                <button class="play-btn pause">
+                    <span></span>
+                    <span></span>
+                </button>
+                <button class="btn forward-btn"><img src="img/nxt.png" alt=""></button>
+
+                
+            </div>
+
         </div>
-
-        <div class="controles">
-            <button class="btn backward-btn"><img src="img/pre.png" alt=""></button>
-            <button class="play-btn pause">
-                <span></span>
-                <span></span>
-            </button>
-            <button class="btn forward-btn"><img src="img/nxt.png" alt=""></button>
-
-            
-        </div>
-
     </div>
     <script src="js/data.js"></script>
     <script src="js/java.js"></script>
