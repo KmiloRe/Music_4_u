@@ -1,3 +1,18 @@
+
+
+let photos = [
+    'img/marimari.png',
+    'img/car.png',
+    'img/encampo.png',
+    'img/feriaaerea.png',
+    'img/ciego.png',
+    'img/ojos.png',
+    'img/boca.png',
+    'img/oso.png',
+    'img/cocina.png',
+    'img/meu.png',
+];
+
 let songs = [
     {
         name: 'Darte un beso',

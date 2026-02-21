@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
     
     <audio src="" id="audio"></audio>
     
@@ -47,6 +48,23 @@
         </div>
     </div>
     <script src="js/data.js"></script>
+    <script>
+        (function() {
+            let bgIndex = 0;
+            function changeBackground() {
+                if (typeof photos !== 'undefined' && photos.length > 0) {
+                    document.body.style.backgroundImage = 'url(' + photos[bgIndex] + ')';
+                    document.body.style.backgroundSize = 'cover';
+                    document.body.style.backgroundPosition = 'center';
+                    document.body.style.backgroundRepeat = 'no-repeat';
+                    document.body.style.transition = 'background-image 1s ease-in-out';
+                    bgIndex = (bgIndex + 1) % photos.length;
+                }
+            }
+            changeBackground();
+            setInterval(changeBackground, 5000);
+        })();
+    </script>
     <script src="js/java.js"></script>
 </body>
 </html>
