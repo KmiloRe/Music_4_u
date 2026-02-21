@@ -48,7 +48,7 @@
         </div>
     </div>
     <script src="js/data.js"></script>
-    <script>
+|    <script>
         (function() {
             let bgIndex = 0;
             function changeBackground() {
@@ -63,6 +63,12 @@
             }
             changeBackground();
             setInterval(changeBackground, 10000);
+
+            document.body.addEventListener('click', function(e) {
+                if (e.target === document.body) {
+                    changeBackground();
+                }
+            });
         })();
     </script>
     <script src="js/java.js"></script>
